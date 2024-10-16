@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-10-14T19:43:38.947751" rpa="false" schemaversion="5">
+<suite id="s1" name="Player" source="c:\ProjetoQA\projects\parodify-robot\player.robot">
+<test id="s1-t1" name="Example Test" line="11">
+<kw name="New Browser" owner="Browser">
+<msg time="2024-10-14T19:43:39.162181" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\ProjetoQA\\projects\\parodify-robot\\browser\\traces\\a3e35109-fa88-4f26-bb4f-cb3fbabe2d88"}</msg>
+<msg time="2024-10-14T19:43:39.236183" level="INFO">Starting Browser process C:\Users\Bruno\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js using port 61015</msg>
+<msg time="2024-10-14T19:43:39.236183" level="INFO">Node startup parameters: ['node', 'C:\\Users\\Bruno\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js', '61015']</msg>
+<msg time="2024-10-14T19:43:40.142769" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\ProjetoQA\\projects\\parodify-robot\\browser\\traces\\a3e35109-fa88-4f26-bb4f-cb3fbabe2d88"}</msg>
+<arg>browser=chromium</arg>
+<arg>headless=false</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2024-10-14T19:43:39.162181" elapsed="0.980588"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2024-10-14T19:43:40.969793" level="INFO">Successfully initialized new page object and opened url: https://parodify.vercel.app/</msg>
+<msg time="2024-10-14T19:43:40.969793" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2024-10-14T19:43:40.142769" elapsed="0.828024"/>
+</kw>
+<kw name="Get Title" owner="Browser">
+<msg time="2024-10-14T19:43:40.991349" level="INFO">Title: 'Parodify by Papito'</msg>
+<arg>==</arg>
+<arg>Parodify by Papito</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the title of the current page.</doc>
+<status status="PASS" start="2024-10-14T19:43:40.970793" elapsed="0.021550"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2024-10-14T19:43:41.072827" level="INFO">Text: 'Fernando Papito'</msg>
+<arg>css=.logged-user</arg>
+<arg>contains</arg>
+<arg>Fernando Papito</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2024-10-14T19:43:40.992343" elapsed="0.080484"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2024-10-14T19:43:41.073828" level="INFO">Clicks the element 'xpath=//h6[text()="Bughium"]/..//button[contains(@class,"play")]'.</msg>
+<arg>${play}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-10-14T19:43:41.072827" elapsed="0.470507"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2024-10-14T19:43:41.860108" level="INFO">Waited for Element with selector xpath=//h6[text()="Bughium"]/..//button[contains(@class,"pause")] at state visible</msg>
+<arg>${pause}</arg>
+<arg>visible</arg>
+<arg>2</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2024-10-14T19:43:41.544341" elapsed="0.315767"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2024-10-14T19:43:41.862111" level="INFO">Clicks the element 'xpath=//h6[text()="Bughium"]/..//button[contains(@class,"pause")]'.</msg>
+<arg>${pause}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-10-14T19:43:41.861109" elapsed="0.034709"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-10-14T19:43:46.897226" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-10-14T19:43:41.896816" elapsed="5.000410"/>
+</kw>
+<status status="PASS" start="2024-10-14T19:43:39.162181" elapsed="7.735045"/>
+</test>
+<status status="PASS" start="2024-10-14T19:43:38.947751" elapsed="8.086532"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Player">Player</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

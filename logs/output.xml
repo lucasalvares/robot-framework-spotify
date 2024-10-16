@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-10-14T18:08:25.870213" rpa="false" schemaversion="5">
+<suite id="s1" name="Player" source="C:\ProjetoQA\projects\parodify-robot\player.robot">
+<test id="s1-t1" name="Example Test" line="5">
+<kw name="New Browser" owner="Browser">
+<msg time="2024-10-14T18:08:26.060160" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\ProjetoQA\\projects\\parodify-robot\\logs\\browser\\traces\\84e4118f-1296-4202-86bc-14315abdaf5f"}</msg>
+<msg time="2024-10-14T18:08:26.085426" level="INFO">Starting Browser process C:\Users\Bruno\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js using port 57795</msg>
+<msg time="2024-10-14T18:08:26.086435" level="INFO">Node startup parameters: ['node', 'C:\\Users\\Bruno\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js', '57795']</msg>
+<msg time="2024-10-14T18:08:26.913141" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\ProjetoQA\\projects\\parodify-robot\\logs\\browser\\traces\\84e4118f-1296-4202-86bc-14315abdaf5f"}</msg>
+<arg>browser=chromium</arg>
+<arg>headless=false</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2024-10-14T18:08:26.059183" elapsed="0.854958"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2024-10-14T18:08:27.872406" level="INFO">Successfully initialized new page object and opened url: https://parodify.vercel.app/</msg>
+<msg time="2024-10-14T18:08:27.872406" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>https://parodify.vercel.app/</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2024-10-14T18:08:26.920184" elapsed="0.953231"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2024-10-14T18:08:27.978144" level="INFO">Text: 'Fernando Papito'</msg>
+<arg>css=.logged-user</arg>
+<arg>contains</arg>
+<arg>Fernando Papito</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2024-10-14T18:08:27.874408" elapsed="0.103736"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-10-14T18:08:29.979526" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-10-14T18:08:27.978144" elapsed="2.001463"/>
+</kw>
+<status status="PASS" start="2024-10-14T18:08:26.058114" elapsed="3.922004"/>
+</test>
+<status status="PASS" start="2024-10-14T18:08:25.871212" elapsed="4.202214"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Player">Player</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
