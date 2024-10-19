@@ -1,44 +1,66 @@
-{"level":30,"time":"2024-10-14T21:08:26.521Z","pid":14200,"hostname":"NoteBruno","msg":"Listening on 57795"}
-(node:14200) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2024-10-19T17:41:00.429Z","pid":10940,"hostname":"NoteBruno","msg":"Listening on 60143"}
+(node:10940) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-{"level":30,"time":"2024-10-14T21:08:26.676Z","pid":14200,"hostname":"NoteBruno","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2024-10-14T21:08:26.910Z","pid":14200,"hostname":"NoteBruno","msg":"Adding browser to stack: chromium, version: 130.0.6723.31"}
-{"level":30,"time":"2024-10-14T21:08:26.910Z","pid":14200,"hostname":"NoteBruno","msg":"End of node method newBrowser"}
-{"level":30,"time":"2024-10-14T21:08:26.910Z","pid":14200,"hostname":"NoteBruno","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2024-10-14T21:08:26.926Z","pid":14200,"hostname":"NoteBruno","msg":"Start of node method newPage"}
-{"level":30,"time":"2024-10-14T21:08:26.926Z","pid":14200,"hostname":"NoteBruno","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2024-10-14T21:08:26.950Z","pid":14200,"hostname":"NoteBruno","msg":"Changed active context"}
-{"level":30,"time":"2024-10-14T21:08:27.241Z","pid":14200,"hostname":"NoteBruno","msg":"Video path: undefined"}
-{"level":30,"time":"2024-10-14T21:08:27.241Z","pid":14200,"hostname":"NoteBruno","msg":"Changed active page"}
-{"level":30,"time":"2024-10-14T21:08:27.864Z","pid":14200,"hostname":"NoteBruno","msg":"End of node method newPage"}
-{"level":30,"time":"2024-10-14T21:08:27.884Z","pid":14200,"hostname":"NoteBruno","msg":"Start of node method getText"}
-{"level":30,"time":"2024-10-14T21:08:27.886Z","pid":14200,"hostname":"NoteBruno","msg":"Strict mode is enabled, find Locator with css=.logged-user in page."}
-{"level":30,"time":"2024-10-14T21:08:27.976Z","pid":14200,"hostname":"NoteBruno","msg":"Retrieved text for element css=.logged-user containing Fernando Papito"}
-{"level":30,"time":"2024-10-14T21:08:27.976Z","pid":14200,"hostname":"NoteBruno","msg":"End of node method getText"}
-{"level":30,"time":"2024-10-14T21:08:29.985Z","pid":14200,"hostname":"NoteBruno","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2024-10-14T21:08:29.990Z","pid":14200,"hostname":"NoteBruno","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2024-10-14T21:08:29.994Z","pid":14200,"hostname":"NoteBruno","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2024-10-14T21:08:29.997Z","pid":14200,"hostname":"NoteBruno","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2024-10-14T21:08:30.000Z","pid":14200,"hostname":"NoteBruno","msg":"Changed active context"}
-{"level":30,"time":"2024-10-14T21:08:30.001Z","pid":14200,"hostname":"NoteBruno","msg":"Changing current active page: page=54db82b5-ef8e-40c7-a859-9cc1ecae2c2c"}
-{"level":30,"time":"2024-10-14T21:08:30.001Z","pid":14200,"hostname":"NoteBruno","msg":"Changed active page"}
-{"level":30,"time":"2024-10-14T21:08:30.007Z","pid":14200,"hostname":"NoteBruno","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2024-10-14T21:08:30.010Z","pid":14200,"hostname":"NoteBruno","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2024-10-14T21:08:30.014Z","pid":14200,"hostname":"NoteBruno","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2024-10-14T21:08:30.014Z","pid":14200,"hostname":"NoteBruno","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2024-10-14T21:08:30.018Z","pid":14200,"hostname":"NoteBruno","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2024-10-14T21:08:30.019Z","pid":14200,"hostname":"NoteBruno","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2024-10-14T21:08:30.022Z","pid":14200,"hostname":"NoteBruno","msg":"Changing current active page: page=54db82b5-ef8e-40c7-a859-9cc1ecae2c2c"}
-{"level":30,"time":"2024-10-14T21:08:30.022Z","pid":14200,"hostname":"NoteBruno","msg":"Changed active page"}
-{"level":30,"time":"2024-10-14T21:08:30.027Z","pid":14200,"hostname":"NoteBruno","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2024-10-14T21:08:30.029Z","pid":14200,"hostname":"NoteBruno","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2024-10-14T21:08:30.031Z","pid":14200,"hostname":"NoteBruno","msg":"Changed active context"}
-{"level":30,"time":"2024-10-14T21:08:30.031Z","pid":14200,"hostname":"NoteBruno","msg":"Changing current active page: page=54db82b5-ef8e-40c7-a859-9cc1ecae2c2c"}
-{"level":30,"time":"2024-10-14T21:08:30.031Z","pid":14200,"hostname":"NoteBruno","msg":"Changed active page"}
-{"level":30,"time":"2024-10-14T21:08:30.034Z","pid":14200,"hostname":"NoteBruno","msg":"Start of node method closeContext"}
-{"level":30,"time":"2024-10-14T21:08:30.050Z","pid":14200,"hostname":"NoteBruno","msg":"Removed page=597aa834-90f4-4ac5-809c-6132082b749c from context=8d8abf72-be23-4802-bc11-b6e1ecf1e58c page stack"}
-{"level":30,"time":"2024-10-14T21:08:30.070Z","pid":14200,"hostname":"NoteBruno","msg":"End of node method closeContext"}
-{"level":30,"time":"2024-10-14T21:08:30.081Z","pid":14200,"hostname":"NoteBruno","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2024-10-14T21:08:30.082Z","pid":14200,"hostname":"NoteBruno","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2024-10-14T21:08:30.133Z","pid":14200,"hostname":"NoteBruno","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2024-10-14T21:08:30.312Z","pid":14200,"hostname":"NoteBruno","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2024-10-19T17:41:00.582Z","pid":10940,"hostname":"NoteBruno","msg":"Start of node method initializeExtension"}
+{"level":30,"time":"2024-10-19T17:41:00.582Z","pid":10940,"hostname":"NoteBruno","msg":"Initializing extension: C:\\ProjetoQA\\projects\\parodify-robot\\resources\\module.js"}
+{"level":30,"time":"2024-10-19T17:41:00.589Z","pid":10940,"hostname":"NoteBruno","msg":"End of node method initializeExtension"}
+{"level":30,"time":"2024-10-19T17:41:00.585Z","pid":10940,"hostname":"NoteBruno","msg":"Adding 1 keywords from JS Extension"}
+{"level":30,"time":"2024-10-19T17:41:00.675Z","pid":10940,"hostname":"NoteBruno","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-19T17:41:00.675Z","pid":10940,"hostname":"NoteBruno","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-19T17:41:00.678Z","pid":10940,"hostname":"NoteBruno","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-19T17:41:00.678Z","pid":10940,"hostname":"NoteBruno","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-19T17:41:00.682Z","pid":10940,"hostname":"NoteBruno","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-10-19T17:41:00.984Z","pid":10940,"hostname":"NoteBruno","msg":"Adding browser to stack: chromium, version: 130.0.6723.31"}
+{"level":30,"time":"2024-10-19T17:41:00.985Z","pid":10940,"hostname":"NoteBruno","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-10-19T17:41:00.985Z","pid":10940,"hostname":"NoteBruno","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-10-19T17:41:00.993Z","pid":10940,"hostname":"NoteBruno","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-10-19T17:41:00.994Z","pid":10940,"hostname":"NoteBruno","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-10-19T17:41:01.032Z","pid":10940,"hostname":"NoteBruno","msg":"Changed active context"}
+{"level":30,"time":"2024-10-19T17:41:01.300Z","pid":10940,"hostname":"NoteBruno","msg":"Video path: undefined"}
+{"level":30,"time":"2024-10-19T17:41:01.300Z","pid":10940,"hostname":"NoteBruno","msg":"Changed active page"}
+{"level":30,"time":"2024-10-19T17:41:01.369Z","pid":10940,"hostname":"NoteBruno","msg":"End of node method newPage"}
+{"level":30,"time":"2024-10-19T17:41:01.426Z","pid":10940,"hostname":"NoteBruno","msg":"Start of node method goTo"}
+{"level":30,"time":"2024-10-19T17:41:02.029Z","pid":10940,"hostname":"NoteBruno","msg":"End of node method goTo"}
+{"level":30,"time":"2024-10-19T17:41:02.062Z","pid":10940,"hostname":"NoteBruno","msg":"Start of node method getText"}
+{"level":30,"time":"2024-10-19T17:41:02.062Z","pid":10940,"hostname":"NoteBruno","msg":"Strict mode is enabled, find Locator with css=.logged-user in page."}
+{"level":30,"time":"2024-10-19T17:41:02.129Z","pid":10940,"hostname":"NoteBruno","msg":"Retrieved text for element css=.logged-user containing Fernando Papito"}
+{"level":30,"time":"2024-10-19T17:41:02.129Z","pid":10940,"hostname":"NoteBruno","msg":"End of node method getText"}
+{"level":30,"time":"2024-10-19T17:41:02.141Z","pid":10940,"hostname":"NoteBruno","msg":"Start of node method click"}
+{"level":30,"time":"2024-10-19T17:41:02.142Z","pid":10940,"hostname":"NoteBruno","msg":"Strict mode is enabled, find Locator with xpath=//h6[text()=\"Mockado com sucesso >:D\"]/..//button[contains(@class,\"play\")] in page."}
+{"level":30,"time":"2024-10-19T17:41:02.220Z","pid":10940,"hostname":"NoteBruno","msg":"End of node method click"}
+{"level":30,"time":"2024-10-19T17:41:02.228Z","pid":10940,"hostname":"NoteBruno","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-10-19T17:41:02.228Z","pid":10940,"hostname":"NoteBruno","msg":"Strict mode is enabled, find Locator with xpath=//h6[text()=\"Mockado com sucesso >:D\"]/..//button[contains(@class,\"pause\")] in page."}
+{"level":30,"time":"2024-10-19T17:41:02.455Z","pid":10940,"hostname":"NoteBruno","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-10-19T17:41:02.459Z","pid":10940,"hostname":"NoteBruno","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-10-19T17:41:02.459Z","pid":10940,"hostname":"NoteBruno","msg":"Strict mode is enabled, find Locator with xpath=//h6[text()=\"Mockado com sucesso >:D\"]/..//button[contains(@class,\"play\")] in page."}
+{"level":30,"time":"2024-10-19T17:41:07.429Z","pid":10940,"hostname":"NoteBruno","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-10-19T17:41:07.440Z","pid":10940,"hostname":"NoteBruno","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-10-19T17:41:07.441Z","pid":10940,"hostname":"NoteBruno","Take screenshot with options: ":{"path":"C:\\ProjetoQA\\projects\\parodify-robot\\logs\\browser\\screenshot\\robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-10-19T17:41:07.658Z","pid":10940,"hostname":"NoteBruno","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-10-19T17:41:07.668Z","pid":10940,"hostname":"NoteBruno","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-19T17:41:07.671Z","pid":10940,"hostname":"NoteBruno","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-19T17:41:07.673Z","pid":10940,"hostname":"NoteBruno","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-19T17:41:07.675Z","pid":10940,"hostname":"NoteBruno","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-19T17:41:07.677Z","pid":10940,"hostname":"NoteBruno","msg":"Changed active context"}
+{"level":30,"time":"2024-10-19T17:41:07.677Z","pid":10940,"hostname":"NoteBruno","msg":"Changing current active page: page=5d4ce4ab-0599-4e30-8b4a-0b580092783d"}
+{"level":30,"time":"2024-10-19T17:41:07.677Z","pid":10940,"hostname":"NoteBruno","msg":"Changed active page"}
+{"level":30,"time":"2024-10-19T17:41:07.682Z","pid":10940,"hostname":"NoteBruno","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-19T17:41:07.686Z","pid":10940,"hostname":"NoteBruno","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-19T17:41:07.688Z","pid":10940,"hostname":"NoteBruno","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-10-19T17:41:07.689Z","pid":10940,"hostname":"NoteBruno","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-10-19T17:41:07.691Z","pid":10940,"hostname":"NoteBruno","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-10-19T17:41:07.692Z","pid":10940,"hostname":"NoteBruno","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-10-19T17:41:07.695Z","pid":10940,"hostname":"NoteBruno","msg":"Changing current active page: page=5d4ce4ab-0599-4e30-8b4a-0b580092783d"}
+{"level":30,"time":"2024-10-19T17:41:07.695Z","pid":10940,"hostname":"NoteBruno","msg":"Changed active page"}
+{"level":30,"time":"2024-10-19T17:41:07.703Z","pid":10940,"hostname":"NoteBruno","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-19T17:41:07.706Z","pid":10940,"hostname":"NoteBruno","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-19T17:41:07.708Z","pid":10940,"hostname":"NoteBruno","msg":"Changed active context"}
+{"level":30,"time":"2024-10-19T17:41:07.708Z","pid":10940,"hostname":"NoteBruno","msg":"Changing current active page: page=5d4ce4ab-0599-4e30-8b4a-0b580092783d"}
+{"level":30,"time":"2024-10-19T17:41:07.708Z","pid":10940,"hostname":"NoteBruno","msg":"Changed active page"}
+{"level":30,"time":"2024-10-19T17:41:07.710Z","pid":10940,"hostname":"NoteBruno","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-10-19T17:41:07.728Z","pid":10940,"hostname":"NoteBruno","msg":"Removed page=c4895584-c352-4353-ad88-77081ab58301 from context=858eff04-f3cb-4edc-917a-fc4ced02a4e3 page stack"}
+{"level":30,"time":"2024-10-19T17:41:07.748Z","pid":10940,"hostname":"NoteBruno","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-10-19T17:41:07.765Z","pid":10940,"hostname":"NoteBruno","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-19T17:41:07.766Z","pid":10940,"hostname":"NoteBruno","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-19T17:41:07.853Z","pid":10940,"hostname":"NoteBruno","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-10-19T17:41:08.051Z","pid":10940,"hostname":"NoteBruno","msg":"End of node method closeAllBrowsers"}
